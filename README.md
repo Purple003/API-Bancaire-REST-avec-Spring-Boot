@@ -3,7 +3,6 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green.svg)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.org/)
 [![H2 Database](https://img.shields.io/badge/H2-Database-blue.svg)](http://www.h2database.com)
-[![License](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
 
 ## 📋 Contexte du Projet
 Ce projet a été développé dans le cadre d'un TP Spring Boot visant à créer une API REST complète pour la gestion de comptes bancaires.
