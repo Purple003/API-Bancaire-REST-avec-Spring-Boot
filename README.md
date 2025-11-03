@@ -4,27 +4,27 @@
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.org/)
 [![H2 Database](https://img.shields.io/badge/H2-Database-blue.svg)](http://www.h2database.com)
 
-## 📋 Contexte du Projet
+##  Contexte du Projet
 Ce projet a été développé dans le cadre d'un TP Spring Boot visant à créer une API REST complète pour la gestion de comptes bancaires.
 
-## ✅ Fonctionnalités Implémentées
+##  Fonctionnalités Implémentées
 
-### 🔹 API REST Complète
+###  API REST Complète
 - **GET /banque/comptes** - Liste tous les comptes (JSON/XML)
 - **GET /banque/comptes/{id}** - Récupère un compte par ID
 - **POST /banque/comptes** - Crée un nouveau compte
 - **PUT /banque/comptes/{id}** - Met à jour un compte
 - **DELETE /banque/comptes/{id}** - Supprime un compte
 
-### 🔹 Support Multi-Format
+###  Support Multi-Format
 - Content Negotiation avec headers `Accept` et `Content-Type`
 - Support simultané JSON et XML
 
-### 🔹 Base de Données
+###  Base de Données
 - Base H2 en mémoire avec console d'administration
 - Initialisation automatique des données via CommandLineRunner
 
-## 📸 Captures d'Écran de Validation
+##  Captures d'Écran de Validation
 
 ### Tests API avec Postman
 <img width="1322" height="718" alt="Screenshot 2025-11-02 210440" src="https://github.com/user-attachments/assets/f8500b3f-284d-46d2-8b98-405e126066f0" />
@@ -62,33 +62,33 @@ Ce projet a été développé dans le cadre d'un TP Spring Boot visant à créer
 - **H2 Database** - Base de données embarquée
 - **Maven** - Gestion des dépendances
 
-## 🚀 Résultats des Tests
+##  Résultats des Tests
 
-### ✅ Tests Fonctionnels Réussis
+### Tests Fonctionnels Réussis
 - **CRUD Complet** - Toutes les opérations validées
 - **Formats JSON/XML** - Négociation de contenu fonctionnelle
 - **Gestion d'Erreurs** - Codes HTTP appropriés (200, 201, 404)
 - **Persistance** - Données cohérentes entre API et base H2
 
-### 📊 Validation Technique
+###  Validation Technique
 - Console H2 accessible sur `http://localhost:8082/h2-console`
 - API opérationnelle sur `http://localhost:8082/banque/comptes`
 - Temps de réponse optimaux (< 200ms)
 - Structure MVC respectée
 
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 src/main/java/ma/rest/spring/
-├── 📄 Application.java
-├── 📁 entities/
-│   ├── 📄 Compte.java
-│   └── 📄 TypeCompte.java
-├── 📁 repositories/
-│   └── 📄 CompteRepository.java
-└── 📁 controllers/
-    └── 📄 CompteController.java
+├──  Application.java
+├──  entities/
+│   ├── Compte.java
+│   └── TypeCompte.java
+├──  repositories/
+│   └──  CompteRepository.java
+└──  controllers/
+    └──  CompteController.java
 ```
 
 **Description des composants :**
@@ -98,7 +98,7 @@ src/main/java/ma/rest/spring/
 - **`CompteRepository.java`** - Interface Spring Data JPA pour la persistance
 - **`CompteController.java`** - Contrôleur REST exposant les endpoints API
 
-## 🎯 Points Forts du Projet
+##  Points Forts du Projet
 
 1. **Architecture RESTful** respectée
 2. **Code propre et structuré** suivant les bonnes pratiques Spring
@@ -106,7 +106,7 @@ src/main/java/ma/rest/spring/
 4. **Tests complets** avec Postman
 5. **Documentation** complète des endpoints
 
-## 📝 Conclusion
+##  Conclusion
 Ce TP démontre une maîtrise complète du développement d'API REST avec Spring Boot, incluant la persistance JPA, la gestion des formats multiples, et les tests d'intégration.
 
 ##  Auteur
